@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+}
+
+#menu {
+    background-color: black;
+}
+
+
+#menu a {
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
+
+
+
+
+#menu form a{
+    color: rgb(0, 0, 0);
+}
+
+
+#menu form > button {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* INICIO */
+#acme{
+    margin-top: 50px;
+    font-weight: bold;
+}
+
+.texto-acme{  
+    text-align:left; 
+    font-size: 180%
+}
+
+#container-acme{
+    background-color: beige;
+    padding: 2%;
+    margin-top: 50px;
+}
+
+/* NOSOTROS */
+.texto-acme-nosotros{
+    text-align:left; 
+    padding: 30px;
+    font-size: 200%
+    
+}
+
+#container-acme-nosotros{
+    background-color: rgb(254, 254, 105);
+    padding: 4%;
+    margin-top: 100px;
+}
+
+.img-nosotros{
+    float: left;
+}
+
+/* SERVICIOS */
+
+.texto-acme-servicios{
+    text-align:center; 
+    padding: 30px;
+    font-size: 200%
+    
+}
+
+#container-acme-servicios{
+    background-color: rgb(254, 254, 105);
+    padding: 4%;
+    margin-top: 100px;
+}
+
+/* titulo CLIENTES */
+
+#acme-clientes{
+    margin-top: 40px;
+    font-weight: bold;
+}
+
+/* CONTACTO */
+
+body{
+    background-color: #0db8de;
+}
+
+.global-container{
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #000000;
+}
+
+form{
+  padding-top: 10px;
+  font-size: 14px;
+  margin-top: 30px;
+}
+
+.login-form{
+  width: 380px;
+  height: 450px;
+  margin: 20px;
+  background: #ffffff !important;
+  border-radius: 10px !important ;
+}
+
+input[type="email"],
+input[type="password"] {
+  background-color: #ffffff;
+  border: 2px solid #0db8de;
+  border-radius: 10px;
+  margin-bottom: 25px;
+}
+
+input[type="email"]:focus,
+input[type="password"]:focus {
+  outline: none;
+  border: none;
+  background: #1a2226;
+  margin: 0;
+}
+
+.btn {
+  background: #0db8de !important;
+  font-size: 14px;
+  transform: translateY(10px);
+  border-radius: 10px !important;
+}
+
+.signup{
+  text-align: center;
+  padding-top: 25px;
+
+}
+
+
+
+
+#navbarSupportedContent{
+    color: #000000;
+}
+
+
+
